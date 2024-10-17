@@ -96,7 +96,7 @@ contract. Forge Std comes with a pre-instantiated [cheatcodes](https://book.getf
 accessible via the `vm` property. If you would like to view the logs in the terminal output, you can add the `-vvv` flag
 and use [console.log](https://book.getfoundry.sh/faq?highlight=console.log#how-do-i-use-consolelog).
 
-This template comes with an example test contract [Foo.t.sol](./test/Foo.t.sol)
+This template comes with an example test contract [Foo.t.sol](./test/AttractorSpaceFactory.t.sol)
 
 ## Usage
 
@@ -139,7 +139,7 @@ $ forge coverage
 Deploy to Anvil:
 
 ```sh
-$ forge script script/Deploy.s.sol --broadcast --fork-url http://localhost:8545
+$ forge script script/DeployAttractorSpaceProtocol.s.sol --broadcast --fork-url http://localhost:8545
 ```
 
 For this script to work, you need to have a `MNEMONIC` environment variable set to a valid
